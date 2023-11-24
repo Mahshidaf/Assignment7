@@ -1,0 +1,477 @@
+*{
+    padding:0px;
+    margin:0px;
+    box-sizing: border-box;
+    font-family:Arial, Helvetica, sans-serif;
+    
+ }
+ .header{
+    background-color: black;
+    width:100%;
+    height: 70px;
+    display:flex;
+    justify-content:space-evenly;
+    align-items: center;
+ }
+
+ .menu{
+    list-style: none;
+    position:relative;
+    right:372px;
+
+ }
+ .menu li{
+    display:inline-block;
+    line-height: 70px;
+    
+ }
+ .menu li a{
+    display:block;
+    text-decoration:none;
+    color:white;
+  
+    font-size:18px;
+    width:150px;
+ transition: 0.4s;
+ padding-left: 40px;
+ 
+ 
+ }
+ .menu li a:hover{
+    background-color:LightSeaGreen ;
+    
+ }
+ .submenu1{
+    position:absolute;
+    background-color: gray;
+    width:150px;
+    left:309px;
+    display:none;
+ }
+ .submenu2{
+    position:absolute;
+    background-color: gray;
+    width:159px;
+    left:100%;
+    top:0px;
+    display:none;
+ }
+ .menu li:hover .submenu1{
+    display:block;
+ }
+ .submenu1 li:hover .submenu2{
+    display:block;
+ }
+
+ 
+}
+#mahshid:hover{
+    background-color: black;
+    transform:rotate(45deg);
+}
+input:focus{
+    background-color: red;
+}
+img{
+    position: relative;
+    top:0px;
+    width: 100%;
+    left:0px;
+    
+}
+#vasat{
+   width:100%;
+   background-color:white;
+   height: 600px;
+}
+h1{
+   text-align: center;
+   margin:151px;
+   font-family: Tahoma, sans-serif;
+}
+p{
+   text-align: center;
+   position:relative;
+   top:-127px;
+   left:14px;
+   font-family: Tahoma, sans-serif;}
+.circle{
+   display: flex;
+   flex-direction: row;
+   background-color:white;
+   position:relative;
+   top:-452px;
+ margin:20px;
+ }
+ 
+.circle > div {
+   background-color: #f1f1f1;
+   width: 100px;
+   height: 100px;
+   margin: 142px;
+   text-align: center;
+   line-height: 75px;
+   font-size: 30px;
+   border-bottom-left-radius: 40px ;
+   border-top-right-radius: 40px;
+   border-top-left-radius: 42px;
+   border-bottom-right-radius: 42px;
+   position: relative;
+   top:-78px;
+ }
+
+ .image1{
+   position: relative;
+   
+   width:100px;
+   height: 100px;
+   border-bottom-left-radius: 40px ;
+   border-top-right-radius: 40px;
+   border-top-left-radius: 42px;
+   border-bottom-right-radius: 42px;
+
+ }
+ .image2{
+   position: relative;
+   
+   width:100px;
+   height: 100px;
+   border-bottom-left-radius: 40px ;
+   border-top-right-radius: 40px;
+   border-top-left-radius: 42px;
+   border-bottom-right-radius: 42px;
+
+ }
+
+ .image3{
+   position: relative;
+   
+   width:100px;
+   height: 100px;
+   border-bottom-left-radius: 40px ;
+   border-top-right-radius: 40px;
+   border-top-left-radius: 42px;
+   border-bottom-right-radius: 42px;
+
+ }
+ .image4{
+   position: relative;
+   
+   width:100px;
+   height: 100px;
+   border-bottom-left-radius: 40px ;
+   border-top-right-radius: 40px;
+   border-top-left-radius: 42px;
+   border-bottom-right-radius: 42px;
+
+ }
+
+ .text-under-photo {
+  
+   width: 200px;
+   position: relative;
+   right:43px;
+   top:-26px;
+ }
+ .text-under {
+  
+   width: 200px;
+   position: relative;
+   left:-41px;
+   top:-50px;
+   font-family: Georgia, serif;
+ }
+#sev{
+   width:100%;
+   background-color:#696969;
+   height:557px;
+   position: relative;
+   top:-427px;
+
+}
+.matn{
+color:white;
+
+position: relative;
+right:640px;
+top:53px;
+font-family: Georgia, serif;
+}
+.matn1{
+   position: relative;
+   right:43px;
+   top:-26px;
+   left:30px;
+   color:white;
+   display: inline;
+  
+
+}
+.flex-container {
+   display: flex;
+   flex-direction: row-reverse;
+position:relative;
+top:-199px;
+right:37px;
+
+ }
+ 
+ .flex-container > div {
+   background-color: #f1f1f1;
+   width: 297px;
+   height: 400px;
+   margin: 10px;
+   margin:6px;
+   text-align: center;
+   line-height: 75px;
+   font-size: 30px;
+ }
+.image5{
+   width:297px;
+   height:232px;
+   position: relative;
+   top:1px;
+}
+.image5{
+   width:297px;
+   height:232px;
+   position: relative;
+   top:1px;
+}
+
+
+.image6{
+   width:297px;
+   height:232px;
+   position: relative;
+   top:1px;
+}
+.image7{
+   width:297px;
+   height:232px;
+   position: relative;
+   top:1px;
+}
+table {
+   border-collapse: collapse;
+   width: 31%;
+ }
+ 
+ th, td {
+   padding: 8px;
+   text-align: center;
+   border-bottom: 2px solid #ddd;
+    border-left: 2px solid #ddd;
+   border-right: 2px solid #ddd;
+   border-top: 2px solid #ddd;
+   width:20px;
+     
+   
+ }
+ 
+ tr ,th:hover {background-color:gray;}
+ th{
+   background-color: black;
+   color:white;
+ }
+tr{
+   background-color: white;
+}
+.larger-row {
+   height: 50px; 
+ }
+ .larger{
+   height: 50px; 
+   background-color: gray;
+
+ }
+ button {
+   background-color: #04AA6D;
+   color: white;
+   padding: 14px 20px;
+   margin: 8px 0;
+   border: none;
+   cursor: pointer;
+   width: 100%;
+   opacity: 0.9;
+ }
+ .cancelbtn {
+   padding: 10px 15px;
+   background-color: #f44336;
+ }
+ .cancelbtn, .signupbtn {
+   position:relative;
+   left:30ppx;
+   width: 50%;
+ }
+ .tables-container {
+   display: flex;
+   justify-content: space-around; 
+ }
+ .my-class{
+   width:100%;
+   height:500px;
+   background-color:gray;
+   position: relative;
+   top:20px;
+border: #04AA6D;
+ }
+ .green-underlined-text {
+   text-decoration: underline;
+   text-decoration-color: green;
+   position:relative;
+   top:75px;
+   left:-611px;
+ }
+ .g{
+   position: relative;
+   top:76px;
+   left:-611px;
+ }
+ .box{
+   background-color: #ddd;
+   width:734px;
+   height: 324px;
+   position: relative;
+   left: 717px;
+   top:-146px;
+   box-shadow: 2px 7px 7px black;
+ }
+hr{
+   width:600px;
+   color:gray;
+  
+margin-left: 30px;
+margin-top: 30px;;
+}
+#r{
+   margin-left: 20px;
+padding-top: 56px;
+}
+.container {
+   display: block;
+   position: relative;
+   padding-left:107px;
+   margin-bottom: 12px;
+   cursor: pointer;
+   font-size: 14px;
+   -webkit-user-select: none;
+   -moz-user-select: none;
+   -ms-user-select: none;
+   user-select: none;
+ }
+ 
+ 
+ .container input {
+   position: absolute;
+   opacity: 0;
+   cursor: pointer;
+   height: 0;
+   width: 0;
+ }
+ 
+ 
+ .checkmark {
+   position: absolute;
+   top: -2px;
+   left: 77px;
+   height: 19px;
+   width: 21px;
+   background-color: #eee;
+ }
+ 
+
+ .container:hover input ~ .checkmark {
+   background-color: #ccc;
+ }
+ 
+ /* When the checkbox is checked, add a blue background */
+ .container input:checked ~ .checkmark {
+   background-color: #2196F3;
+ }
+ 
+ /* Create the checkmark/indicator (hidden when not checked) */
+ .checkmark:after {
+   content: "";
+   position: absolute;
+   display: none;
+ }
+ 
+ 
+ .container input:checked ~ .checkmark:after {
+   display: block;
+ }
+ 
+
+ .container .checkmark:after {
+   left: 9px;
+   top: 5px;
+   width: 5px;
+   height: 10px;
+   border: solid white;
+   border-width: 0 3px 3px 0;
+   -webkit-transform: rotate(45deg);
+   -ms-transform: rotate(45deg);
+   transform: rotate(45deg);
+ }
+ .my{
+   width:100%;
+   height:500px;
+   background-color:gray;
+   position: relative;
+   top:20px;
+border: #04AA6D;
+ }
+ .m{
+   width:100%;
+   height:300px;
+   background-color:black;
+   position: relative;
+   top:532px;
+border: #04AA6D;
+
+ }
+ .centered-text {
+   text-align: center;
+   color: white;
+   padding: 30px;
+ }
+ .container1 {
+   display: flex;
+   margin-left: 650px;
+ }
+ 
+ .square {
+   width: 50px; /* Adjust square size */
+   height: 50px; /* Adjust square size */
+   background-color: #3498db; /* Adjust square color */
+   margin-right: 5px; /* Adjust the space between squares */
+ }
+ /* To remove margin from the last square */
+ .square:last-child {
+   margin-right: 0;
+ }
+ p{
+  color:white;
+  position:relative;
+  top:75px;
+  left:-190px;
+ }
+ .dovom{
+  position: relative;
+  top:6px;
+ }
+ .sevom{
+  position: relative;
+  top:6px;
+ }
+ .aval{
+  width:30px;
+  height:30px;
+  position: relative;
+  top:9px;
+  left:10px;
+ }
+
+
+ 
